@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Consultorio Dental Sonrisa Feliz</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Clínica Dental Sonrisa Feliz</h1>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#citas">Solicitar Cita</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="servicios" aria-labelledby="servicios-title">
+      <h2 id="servicios-title">Nuestras Especialidades</h2>
+      <ul class="servicios-list">
+        <li>Ortodoncia</li>
+        <li>Endodoncia</li>
+        <li>Cirugía Maxilofacial</li>
+        <li>Periodoncia</li>
+        <li>Odontopediatría</li>
+      </ul>
+    </section>
+
+    <section id="equipo" aria-labelledby="equipo-title">
+      <h2 id="equipo-title">Conoce a Nuestros Dentistas</h2>
+      <p>Equipo profesional con años de experiencia en atención dental integral.</p>
+      <!-- Puedes expandir con tarjetas por dentista -->
+    </section>
+
+    <section id="citas" aria-labelledby="citas-title">
+      <h2 id="citas-title">Solicitar Cita</h2>
+
+      <form id="citaForm" novalidate>
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" inputmode="tel" required placeholder="Ej. 5512345678" />
+
+        <label for="especialidad">Especialidad Requerida:</label>
+        <select id="especialidad" name="especialidad" required>
+          <option value="">-- Seleccione una --</option>
+          <option value="Ortodoncia">Ortodoncia</option>
+          <option value="Endodoncia">Endodoncia</option>
+          <option value="Cirugía Maxilofacial">Cirugía Maxilofacial</option>
+          <option value="Periodoncia">Periodoncia</option>
+          <option value="Odontopediatría">Odontopediatría</option>
+        </select>
+
+        <button type="submit" id="submitBtn">Enviar Solicitud</button>
+
+        <p id="mensaje" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Clínica Dental CBTIS 49</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
