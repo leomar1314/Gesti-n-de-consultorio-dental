@@ -1,12 +1,12 @@
 # 🏥 Proyecto Web 
 
-Este proyecto es un sitio web completo para un **Centro Médico**, desarrollado con **HTML, CSS y JavaScript**, e incluye las siguientes secciones:
+Este proyecto es un sitio web completo para un **Centro Medico**, desarrollado con **HTML, CSS y JavaScript**, e incluye las siguientes secciones:
 
 ---
 
 ## 📌 Contenido del sitio
 
-### ✔ Página principal 
+### ✔ Pagina principal 
 - Banner con información general
 - Servicios destacados
 - Presentación del equipo médico
