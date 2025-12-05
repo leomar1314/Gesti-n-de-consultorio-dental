@@ -6,21 +6,21 @@ Este proyecto es un sitio web completo para un **Centro Médico**, desarrollado 
 
 ## 📌 Contenido del sitio
 
-### ✔ Página principal (index.html)
+### ✔ Página principal 
 - Banner con información general
 - Servicios destacados
 - Presentación del equipo médico
 
-### ✔ Nosotros (nosotros.html)
+### ✔ Nosotros
 Información sobre la clínica, su misión y visión.
 
-### ✔ Servicios (servicios.html)
+### ✔ Servicios 
 Lista detallada de servicios médicos ofrecidos.
 
-### ✔ Equipo Médico (equipo.html)
+### ✔ Equipo Médico 
 Profesionales del centro con sus especialidades.
 
-### ✔ Citas (citas.html)
+### ✔ Citas 
 Formulario para agendar citas:
 - Nombre
 - Correo
@@ -29,9 +29,8 @@ Formulario para agendar citas:
 - Servicio solicitado
 - Comentarios
 
-Incluye validación con JavaScript.
 
-### ✔ Contacto (contacto.html)
+### ✔ Contacto 
 Información de contacto y formulario de mensajes.
 
 ---
