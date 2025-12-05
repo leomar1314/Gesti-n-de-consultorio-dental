@@ -1,4 +1,4 @@
-# 🏥 Proyecto Web - SaludPlus
+# 🏥 Proyecto Web 
 
 Este proyecto es un sitio web completo para un **Centro Médico**, desarrollado con **HTML, CSS y JavaScript**, e incluye las siguientes secciones:
 
