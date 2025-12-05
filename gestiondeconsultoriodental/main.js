@@ -1,42 +1,29 @@
+// FORMULARIO DE CITAS
+let formCita = document.getElementById("formCita");
 
+if (formCita) {
+    formCita.addEventListener("submit", function(e){
+        e.preventDefault();
 
-document.addEventListener('DOMContentLoaded', () => {
-  const form = document.getElementById('citaForm');
-  const mensaje = document.getElementById('mensaje');
-  const nombreInput = document.getElementById('nombre');
-  const telefonoInput = document.getElementById('telefono');
-  const especialidadSelect = document.getElementById('especialidad');
+        let nombre = document.getElementById("nombre").value;
+        let fecha = document.getElementById("fecha").value;
 
-  form.addEventListener('submit', function (event) {
-    event.preventDefault();
+        document.getElementById("mensaje").innerText =
+            "Gracias " + nombre + ", tu cita para el " + fecha + " fue registrada.";
+    });
+}
 
+// FORMULARIO DE CONTACTO
+let contactoForm = document.getElementById("formContacto");
 
-    const nombre = nombreInput.value.trim();
-    const telefono = telefonoInput.value.trim();
-    const especialidad = especialidadSelect.value;
+if (contactoForm) {
+    contactoForm.addEventListener("submit", function(e){
+        e.preventDefault();
 
-   
-    if (!nombre || !telefono || !especialidad) {
-      mensaje.textContent = 'Error: Por favor, complete todos los campos requeridos.';
-      mensaje.style.color = 'red';
-      return;
-    }
+        let nombre = document.getElementById("contactoNombre").value;
+        let correo = document.getElementById("contactoCorreo").value;
 
-    
-    const numeros = telefono.replace(/\D/g, ''); 
-    if (numeros.length < 8) {
-      mensaje.textContent = 'Error: El número de teléfono parece incompleto.';
-      mensaje.style.color = 'red';
-      return;
-    }
-
-   
-    mensaje.style.color = 'green';
-    mensaje.textContent = `¡Solicitud enviada! ${nombre}, con teléfono ${telefono}, confirmaremos su cita de ${especialidad} pronto.`;
-
-    
-    form.reset();
-
-   
-  });
-});
+        document.getElementById("respuestaContacto").innerText =
+            "Gracias " + nombre + ", te contactaremos al correo " + correo + ".";
+    });
+}

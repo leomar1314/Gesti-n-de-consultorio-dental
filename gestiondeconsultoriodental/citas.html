@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultorio Dental</title>
+    <title>Citas - Consultorio Dental</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-    <h1>Consultorio Dental</h1>
+    <h1>Agenda tu Cita</h1>
     <nav>
         <a href="index.html">Inicio</a>
         <a href="servicios.html">Servicios</a>
@@ -19,15 +19,27 @@
     </nav>
 </header>
 
-<section class="inicio">
-    <h2>Bienvenido</h2>
-    <p>Brindamos la mejor atención para tu salud bucal.</p>
-    <img src="logo.jpeg" class="banner" alt="Consultorio Dental">
+<section class="cita">
+    <form id="formCita">
+        <label>Nombre:</label>
+        <input type="text" id="nombre">
+
+        <label>Teléfono:</label>
+        <input type="text" id="telefono">
+
+        <label>Fecha:</label>
+        <input type="date" id="fecha">
+
+        <button type="submit">Enviar Cita</button>
+    </form>
+
+    <p id="mensaje"></p>
 </section>
 
 <footer>
     
 </footer>
 
+<script src="main.js"></script>
 </body>
 </html>
