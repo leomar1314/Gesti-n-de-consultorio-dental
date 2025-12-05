@@ -51,7 +51,8 @@ El archivo `script.js` incluye:
 - Validación general de formularios
 - Prevención de envío si faltan campos
 - Validación especial de fechas para citas
-- Mensajes de alerta al usuario
+- Mensajes de alerta al usuarios
+  
 
 ---
 
