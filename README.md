@@ -1,10 +1,10 @@
-# 🏥 Proyecto Web 
+#  Proyecto Web 
 
 Este proyecto es un sitio web completo para un **Centro Medico**, desarrollado con **HTML, CSS y JavaScript**, e incluye las siguientes secciones:
 
----
 
-## 📌 Contenido del sitio
+
+##  Contenido del sitio
 
 ### ✔ Pagina principal 
 - Banner con información general
@@ -33,9 +33,9 @@ Formulario para agendar citas:
 ### ✔ Contacto 
 Información de contacto y formulario de mensajes.
 
----
 
-## 🎨 Estilos
+
+##  Estilos
 El archivo `styles.css` controla:
 - Navbar  
 - Secciones del sitio  
@@ -44,9 +44,9 @@ El archivo `styles.css` controla:
 - Formularios  
 - Footer  
 
----
 
-## 🧩 Funcionalidad con JavaScript
+
+##  Funcionalidad con JavaScript
 El archivo `script.js` incluye:
 - Validación general de formularios
 - Prevención de envío si faltan campos
@@ -54,6 +54,6 @@ El archivo `script.js` incluye:
 - Mensajes de alerta al usuarios
   
 
----
 
-## 📁 Estructura del proyecto
+
+##  Estructura del proyecto
